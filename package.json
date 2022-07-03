@@ -1,0 +1,27 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "description": "practice algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch:test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branlok/algo-excercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branlok/algo-excercises/issues"
+  },
+  "homepage": "https://github.com/branlok/algo-excercises#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2"
+  },
+  "type": "module"
+}
