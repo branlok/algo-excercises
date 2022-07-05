@@ -8,12 +8,12 @@ test("search correctly with correct position", () => {
 });
 
 test("returns -1 for empty arrays", () => {
-  let example = [];
+  let example: number[] = [];
   expect(jumpSearch(example, 0)).toBe(-1);
 });
 
 test("returns -1 for empty size of 1", () => {
-  let example = [1];
+  let example: number[] = [1];
   expect(jumpSearch(example, 1)).toBe(0);
 });
 

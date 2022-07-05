@@ -1,4 +1,4 @@
-export default function jumpSearch(arr, target) {
+export default function jumpSearch(arr: number[], target: number) {
   const JumpSize = Math.floor(Math.sqrt(arr.length));
   let pos = 0;
 

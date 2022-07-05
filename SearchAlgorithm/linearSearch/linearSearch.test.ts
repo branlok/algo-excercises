@@ -1,4 +1,4 @@
-import linearSearch from "./linearSearch.js";
+import linearSearch from "./linearSearch";
 
 test("finding correct position", () => {
   const sampleArray = [0, 1, 2, 3, 4, 5];

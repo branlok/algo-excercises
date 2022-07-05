@@ -1,4 +1,4 @@
-import binarySearch from "./binarySearch.js";
+import binarySearch from "./binarySearch";
 
 test("searchValue searches correct position when found", () => {
   let sampleArray = [0, 1, 2, 3, 4, 5, 6];

@@ -1,8 +1,13 @@
-export default function binarySearch(arr, target) {
+export default function binarySearch(arr: Array<number>, target: number) {
   return binarySearchRecursion(arr, target, 0, arr.length);
 }
 
-function binarySearchRecursion(arr, target, start, end) {
+function binarySearchRecursion(
+  arr: Array<number>,
+  target: number,
+  start: number,
+  end: number
+): number {
   let middle = Math.floor((start + end) / 2);
   //base case
   if (start > end) {

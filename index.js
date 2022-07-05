@@ -38,14 +38,6 @@ class BinarySearchTree {
       this.#traverse(value, this.root);
     }
   }
-
-  //search
-  //   searchValue(value) {}
-
-  //printing data strucutre
-  //inorder,
-  //preorder,
-  //postorder,
 }
 
 let bst = new BinarySearchTree();
